@@ -1,0 +1,75 @@
+//2020.10.18 全加器
+//
+
+module FullAdder(Sw1,Sw2,Sw3,Sw4,Key1,Key2,Key3,Key4)
+	//输入 两个四位二进制数
+	input reg [3:0] Switch;
+	input reg [3:0] Key
+	
+	//输出 LED灯
+	output reg [3:0] LED;
+	
+	reg Const0;
+	Const0 = 1'b0;
+	
+	//进位标记
+	reg Add1 [3:0];
+	initial begin
+		Add1[0] = 1'b0;
+		Add1[1] = 1'b0;
+		Add1[2] = 1'b0;
+		Add1[3] = 1'b0;
+	end
+	
+	//求和
+	reg Sum [3:0];
+	initial begin
+		Sum[0] = 1'b0;
+		Sum[1] = 1'b0;
+		Sum[2] = 1'b0;
+		Sum[3] = 1'b0;
+	end
+	
+	//全加器函数
+	function reg AddFunc
+		input Num1;
+		input Num2;
+		input Add1;
+		
+		output reg AddFunc;
+		begin
+			AddFunc = 1'b0;
+			AddFunc = Num1^Num2^Add1;
+		end
+	endfunction
+	
+	//进位函数
+	function reg CountAdd
+		input Num1;
+		input Num2;
+		input Add1;
+		
+		output reg CountAdd;
+		begin
+			CountAdd = 1'b0;
+			CountAdd = Num1&Num2 + Add1&(Num1^Num2);
+		end
+	endfunction
+	
+	//检测
+	always@(Switch,Key)begin
+		Add1[0] = CountAdd(Switch[0],Key[0],Const0);
+		Add1[1] = CountAdd(Switch[1],Key[1],Add[0]);
+		Add1[2] = CountAdd(Switch[2],Key[2],Add[1]);
+		Add1[3] = CountAdd(Switch[3],Key[3],Add[2]);
+		
+		Sum[0] = AddFunc(Switch[0],Key[0],Const0);
+		Sum[1] = AddFunc(Switch[1],Key[1],Add1[0]);
+		Sum[2] = AddFunc(Switch[2],Key[2],Add1[1]);
+		Sum[3] = AddFunc(Switch[3],Key[3],Add1[2]);
+		
+		LED = Sum;
+		
+	end
+	
+endmodule

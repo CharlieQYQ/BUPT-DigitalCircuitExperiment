@@ -1,0 +1,86 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/QuartusProjects/20201127JKfor8421BCD/simulation/modelsim
+vCnt8421_vlg_tst
+Z1 !s110 1606486139
+!i10b 1
+!s100 @Qj06FcADL9eD6lZHh=7z3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IZeNgz=PJFnQ0BN@YAg_<e0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1606486095
+8D:/QuartusProjects/20201127JKfor8421BCD/Test.v
+FD:/QuartusProjects/20201127JKfor8421BCD/Test.v
+!i122 1
+L0 2 7
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1606486139.000000
+!s107 D:/QuartusProjects/20201127JKfor8421BCD/Test.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/QuartusProjects/20201127JKfor8421BCD|D:/QuartusProjects/20201127JKfor8421BCD/Test.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+D:/QuartusProjects/20201127JKfor8421BCD
+Z8 tCvgOpt 0
+n@cnt8421_vlg_tst
+vJK
+R1
+!i10b 1
+!s100 lWBPKmlE^==BX8ljO><SM3
+R2
+IH5izfBgk=^VZg=[fkA=oJ1
+R3
+R0
+Z9 w1606485120
+Z10 8D:/QuartusProjects/20201127JKfor8421BCD/JKfor8421BCD.v
+Z11 FD:/QuartusProjects/20201127JKfor8421BCD/JKfor8421BCD.v
+!i122 0
+L0 16 20
+R4
+r1
+!s85 0
+31
+R5
+Z12 !s107 D:/QuartusProjects/20201127JKfor8421BCD/JKfor8421BCD.v|
+Z13 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/QuartusProjects/20201127JKfor8421BCD|D:/QuartusProjects/20201127JKfor8421BCD/JKfor8421BCD.v|
+!i113 1
+R6
+R7
+R8
+n@j@k
+vJKfor8421BCD
+R1
+!i10b 1
+!s100 z?]`on7Cg0i2]B4@[JV<G3
+R2
+IVGWiP_nQEo7WG<EV?ja<[0
+R3
+R0
+R9
+R10
+R11
+!i122 0
+L0 3 12
+R4
+r1
+!s85 0
+31
+R5
+R12
+R13
+!i113 1
+R6
+R7
+R8
+n@j@kfor8421@b@c@d

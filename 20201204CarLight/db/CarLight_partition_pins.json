@@ -1,0 +1,45 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "LEDl[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDl[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDr[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDr[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Switch[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Switch[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Switch[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Switch[3]",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

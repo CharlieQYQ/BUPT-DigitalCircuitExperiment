@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Fri Dec 04 17:24:17 2020
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : ColorBreathLED
+Top-level Entity Name : ColorBreathLED
+Family : MAX 10
+Total logic elements : 165
+    Total combinational functions : 165
+    Dedicated logic registers : 82
+Total registers : 82
+Total pins : 4
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

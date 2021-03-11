@@ -1,0 +1,75 @@
+|My74HC595
+CLK => CLK.IN1
+Key[0] => Key[0].IN1
+Key[1] => Key[1].IN1
+LED[0] << LEDState[0].DB_MAX_OUTPUT_PORT_TYPE
+LED[1] << LEDState[1].DB_MAX_OUTPUT_PORT_TYPE
+LED[2] << LEDState[2].DB_MAX_OUTPUT_PORT_TYPE
+LED[3] << LEDState[3].DB_MAX_OUTPUT_PORT_TYPE
+LED[4] << LEDState[4].DB_MAX_OUTPUT_PORT_TYPE
+LED[5] << LEDState[5].DB_MAX_OUTPUT_PORT_TYPE
+LED[6] << LEDState[6].DB_MAX_OUTPUT_PORT_TYPE
+LED[7] << LEDState[7].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|My74HC595|debounce:m1
+clk => key_sec_pre[0].CLK
+clk => key_sec_pre[1].CLK
+clk => key_sec[0].CLK
+clk => key_sec[1].CLK
+clk => cnt[0].CLK
+clk => cnt[1].CLK
+clk => cnt[2].CLK
+clk => cnt[3].CLK
+clk => cnt[4].CLK
+clk => cnt[5].CLK
+clk => cnt[6].CLK
+clk => cnt[7].CLK
+clk => cnt[8].CLK
+clk => cnt[9].CLK
+clk => cnt[10].CLK
+clk => cnt[11].CLK
+clk => cnt[12].CLK
+clk => cnt[13].CLK
+clk => cnt[14].CLK
+clk => cnt[15].CLK
+clk => cnt[16].CLK
+clk => cnt[17].CLK
+clk => key_rst_pre[0].CLK
+clk => key_rst_pre[1].CLK
+clk => key_rst[0].CLK
+clk => key_rst[1].CLK
+rst => cnt[0].ACLR
+rst => cnt[1].ACLR
+rst => cnt[2].ACLR
+rst => cnt[3].ACLR
+rst => cnt[4].ACLR
+rst => cnt[5].ACLR
+rst => cnt[6].ACLR
+rst => cnt[7].ACLR
+rst => cnt[8].ACLR
+rst => cnt[9].ACLR
+rst => cnt[10].ACLR
+rst => cnt[11].ACLR
+rst => cnt[12].ACLR
+rst => cnt[13].ACLR
+rst => cnt[14].ACLR
+rst => cnt[15].ACLR
+rst => cnt[16].ACLR
+rst => cnt[17].ACLR
+rst => key_rst_pre[0].PRESET
+rst => key_rst_pre[1].PRESET
+rst => key_rst[0].PRESET
+rst => key_rst[1].PRESET
+rst => key_sec_pre[0].PRESET
+rst => key_sec_pre[1].PRESET
+rst => key_sec[0].PRESET
+rst => key_sec[1].PRESET
+key[0] => key_rst[0].DATAIN
+key[0] => key_sec[0].DATAIN
+key[1] => key_rst[1].DATAIN
+key[1] => key_sec[1].DATAIN
+key_pulse[0] <= key_pulse.DB_MAX_OUTPUT_PORT_TYPE
+key_pulse[1] <= key_pulse.DB_MAX_OUTPUT_PORT_TYPE
+
+

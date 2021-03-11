@@ -1,0 +1,44 @@
+# Reading pref.tcl
+# do My3_8_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/QuartusProjects/20200922My3_8 {D:/QuartusProjects/20200922My3_8/My3_8.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:29:25 on Sep 22,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/QuartusProjects/20200922My3_8" D:/QuartusProjects/20200922My3_8/My3_8.v 
+# -- Compiling module My3_8
+# 
+# Top level modules:
+# 	My3_8
+# End time: 17:29:25 on Sep 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/QuartusProjects/20200922My3_8 {D:/QuartusProjects/20200922My3_8/My3_8_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:29:25 on Sep 22,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/QuartusProjects/20200922My3_8" D:/QuartusProjects/20200922My3_8/My3_8_tb.v 
+# -- Compiling module My3_8_tb
+# 
+# Top level modules:
+# 	My3_8_tb
+# End time: 17:29:26 on Sep 22,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  My3_8_tb
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break in Module My3_8_tb at D:/QuartusProjects/20200922My3_8/My3_8_tb.v line 55
+

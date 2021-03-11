@@ -1,0 +1,35 @@
+//2019.10.31 3-8译码器&全加器
+
+module(Sw1,Sw2,Sw3,Sa,LED)
+	//输入端口
+	input Sw1;
+	input Sw2;
+	input Sw3;
+	input Sa;
+	
+	//输出端口
+	output [7:0] LED;
+	
+	reg LED;
+	reg Sw;
+	
+	always@(Sw1,Sw2,Sw3,Sa)begin
+		Sw = {Sw1,Sw2,Sw3};
+		if(Sa = 1)
+			case(Sw)
+				3'b000: LED = 8'b00000001;
+				3'b001: LED = 8'b00000010;
+				3'b010: LED = 8'b00000100;
+				3'b011: LED = 8'b00001000;
+				3'b100: LED = 8'b00010000;
+				3'b101: LED = 8'b00100000;
+				3'b110: LED = 8'b01000000;
+				3'b111: LED = 8'b10000000;
+				default: LED = 8'b00000000;
+			endcase
+		else
+			LED = 8'b11111111;
+			
+	end
+	
+endmodule

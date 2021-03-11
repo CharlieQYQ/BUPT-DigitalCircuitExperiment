@@ -1,0 +1,3 @@
+Info (10281): Verilog HDL Declaration information at ColorBreathLED.v(8): object "UP" differs only in case from object "up" in the same scope File: D:/QuartusProjects/20201204ColorBreathLED/ColorBreathLED.v Line: 8
+Info (10281): Verilog HDL Declaration information at ColorBreathLED.v(9): object "DW" differs only in case from object "dw" in the same scope File: D:/QuartusProjects/20201204ColorBreathLED/ColorBreathLED.v Line: 9
+Info (10281): Verilog HDL Declaration information at ColorBreathLED.v(50): object "STT" differs only in case from object "stt" in the same scope File: D:/QuartusProjects/20201204ColorBreathLED/ColorBreathLED.v Line: 50

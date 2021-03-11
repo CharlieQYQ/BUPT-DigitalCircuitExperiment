@@ -1,0 +1,80 @@
+# Reading pref.tcl
+# ERROR: No extended dataflow license exists
+# do JKfor8421BCD_run_msim_gate_verilog.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work gate_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+. {JKfor8421BCD.vo}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:09:48 on Nov 27,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+." JKfor8421BCD.vo 
+# -- Compiling module JKfor8421BCD
+# -- Compiling module hard_block
+# 
+# Top level modules:
+# 	JKfor8421BCD
+# End time: 22:09:48 on Nov 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/QuartusProjects/20201127JKfor8421BCD {D:/QuartusProjects/20201127JKfor8421BCD/Test.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:09:48 on Nov 27,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/QuartusProjects/20201127JKfor8421BCD" D:/QuartusProjects/20201127JKfor8421BCD/Test.v 
+# -- Compiling module Cnt8421_vlg_tst
+# 
+# Top level modules:
+# 	Cnt8421_vlg_tst
+# End time: 22:09:48 on Nov 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L gate_work -L work -voptargs="+acc"  Cnt8421_vlg_tst
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./JKfor8421BCD_run_msim_gate_verilog.do PAUSED at line 12
+do JKfor8421BCD_run_msim_gate_verilog.do
+# transcript on
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work gate_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+. {JKfor8421BCD.vo}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:11:04 on Nov 27,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+." JKfor8421BCD.vo 
+# -- Compiling module JKfor8421BCD
+# -- Compiling module hard_block
+# 
+# Top level modules:
+# 	JKfor8421BCD
+# End time: 22:11:05 on Nov 27,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/QuartusProjects/20201127JKfor8421BCD {D:/QuartusProjects/20201127JKfor8421BCD/Test.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:11:05 on Nov 27,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/QuartusProjects/20201127JKfor8421BCD" D:/QuartusProjects/20201127JKfor8421BCD/Test.v 
+# -- Compiling module Cnt8421_vlg_tst
+# 
+# Top level modules:
+# 	Cnt8421_vlg_tst
+# End time: 22:11:05 on Nov 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L gate_work -L work -voptargs="+acc"  Cnt8421_vlg_tst
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./JKfor8421BCD_run_msim_gate_verilog.do PAUSED at line 12

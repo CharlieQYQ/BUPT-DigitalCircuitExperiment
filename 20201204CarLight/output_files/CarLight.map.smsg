@@ -1,0 +1,2 @@
+Info (10281): Verilog HDL Declaration information at CarLight.v(9): object "LEDl" differs only in case from object "LEDL" in the same scope File: D:/QuartusProjects/20201204CarLight/CarLight.v Line: 9
+Info (10281): Verilog HDL Declaration information at CarLight.v(10): object "LEDr" differs only in case from object "LEDR" in the same scope File: D:/QuartusProjects/20201204CarLight/CarLight.v Line: 10

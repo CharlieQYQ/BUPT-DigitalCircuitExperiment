@@ -1,0 +1,11 @@
+//2020.11.27 24s计时器
+
+module Timer24s(CLK,Reset,Seg1,Seg2);
+	input CLK;
+	input Reset;
+	
+	output reg [7:0]
+	
+	
+	
+endmodule

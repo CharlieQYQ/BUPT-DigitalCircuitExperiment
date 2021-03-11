@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, D:/QuartusProjects/20200928NoDebounce/20200928NoDebounce.v
+source_file = 1, D:/QuartusProjects/20200928NoDebounce/db/20200928NoDebounce.cbx.xml
+design_name = top
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, top, 1
+instance = comp, \led~output , led~output, top, 1
+instance = comp, \key~input , key~input, top, 1
+instance = comp, \rst~input , rst~input, top, 1
+instance = comp, \led$latch~0 , led$latch~0, top, 1
+instance = comp, \~QUARTUS_CREATED_UNVM~ , ~QUARTUS_CREATED_UNVM~, top, 1
+design_name = hard_block
+instance = comp, \~ALTERA_TMS~~ibuf , ~ALTERA_TMS~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_TCK~~ibuf , ~ALTERA_TCK~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_TDI~~ibuf , ~ALTERA_TDI~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_nCONFIG~~ibuf , ~ALTERA_nCONFIG~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_nSTATUS~~ibuf , ~ALTERA_nSTATUS~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_CONF_DONE~~ibuf , ~ALTERA_CONF_DONE~~ibuf, hard_block, 1

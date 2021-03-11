@@ -1,0 +1,31 @@
+//2020.11.22 74HC595
+
+module My74HC595(CLK,Key,LED);
+	input CLK;
+	input [1:0] Key;
+	
+	output [7:0] LED;
+	
+	wire [1:0] KeyState;
+	reg Rst;
+	
+	initial begin
+		Rst = 1'b1;
+		LED = 8'b11111111;
+	end
+	
+	debounce m1(CLK,Rst,Key,KeyState);
+	
+	always@(KeyState) begin
+		if(KeyState == 2'b01) begin
+			LED << 1;
+			LED <= LED + 1'b1;
+		end
+		else if(KeyState == 2'b10) begin
+			LED << 1;
+			LED <= LED + 1'b0;
+		end
+	end
+	
+	
+endmodule

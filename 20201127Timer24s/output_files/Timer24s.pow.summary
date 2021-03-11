@@ -1,0 +1,12 @@
+Power Analyzer Status : Successful - Fri Nov 27 21:25:59 2020
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : Timer24s
+Top-level Entity Name : Timer24s
+Family : MAX 10
+Device : 10M02SCM153I7G
+Power Models : Final
+Total Thermal Power Dissipation : 113.62 mW
+Core Dynamic Thermal Power Dissipation : 0.00 mW
+Core Static Thermal Power Dissipation : 66.85 mW
+I/O Thermal Power Dissipation : 46.77 mW
+Power Estimation Confidence : Low: user provided insufficient toggle rate data

@@ -1,0 +1,17 @@
+|My3_8
+a => Decoder0.IN0
+a => Decoder1.IN0
+b => Decoder0.IN1
+b => Decoder1.IN1
+c => Decoder0.IN2
+out[0] << out.DB_MAX_OUTPUT_PORT_TYPE
+out[1] << Decoder1.DB_MAX_OUTPUT_PORT_TYPE
+out[2] << Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+out[3] << WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+out[4] << WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+out[5] << WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+out[6] << WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+out[7] << <GND>
+out[8] << <GND>
+
+

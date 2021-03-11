@@ -1,0 +1,10 @@
+|Decoder3_8andFullAdder
+Sw1 => Decoder0.IN0
+Sw2 => Decoder0.IN1
+Sw3 => Decoder0.IN2
+Sa => LEDi.OUTPUTSELECT
+Sa => LEDi.OUTPUTSELECT
+LED[0] << LEDi.DB_MAX_OUTPUT_PORT_TYPE
+LED[1] << LEDi.DB_MAX_OUTPUT_PORT_TYPE
+
+

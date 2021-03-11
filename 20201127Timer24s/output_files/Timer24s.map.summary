@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Fri Nov 27 21:25:45 2020
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : Timer24s
+Top-level Entity Name : Timer24s
+Family : MAX 10
+Total logic elements : 88
+    Total combinational functions : 88
+    Dedicated logic registers : 31
+Total registers : 31
+Total pins : 20
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

@@ -1,0 +1,11 @@
+|JK
+CLK => LED~reg0.CLK
+J => LED.IN1
+K => LED.IN1
+Rst => always0.IN0
+Rst => LED.IN0
+Set => always0.IN1
+Set => LED.IN1
+LED << LED~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

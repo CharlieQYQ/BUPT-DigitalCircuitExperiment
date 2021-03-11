@@ -1,0 +1,41 @@
+|JKfor8421BCD
+CLK => CLK.IN1
+Reset => Reset.IN4
+Q[0] << Q[0].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] << Q[1].DB_MAX_OUTPUT_PORT_TYPE
+Q[2] << JK:m3.port4
+Q[3] << Q[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|JKfor8421BCD|JK:m1
+CLK => Q~reg0.CLK
+Reset => Q.OUTPUTSELECT
+J => Mux0.IN3
+K => Mux0.IN4
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|JKfor8421BCD|JK:m2
+CLK => Q~reg0.CLK
+Reset => Q.OUTPUTSELECT
+J => Mux0.IN3
+K => Mux0.IN4
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|JKfor8421BCD|JK:m3
+CLK => Q~reg0.CLK
+Reset => Q.OUTPUTSELECT
+J => Mux0.IN3
+K => Mux0.IN4
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|JKfor8421BCD|JK:m4
+CLK => Q~reg0.CLK
+Reset => Q.OUTPUTSELECT
+J => Mux0.IN3
+K => Mux0.IN4
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

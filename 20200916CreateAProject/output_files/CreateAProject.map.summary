@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Wed Sep 16 15:54:34 2020
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : CreateAProject
+Top-level Entity Name : LED_Shining
+Family : MAX 10
+Total logic elements : 50
+    Total combinational functions : 50
+    Dedicated logic registers : 26
+Total registers : 26
+Total pins : 4
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

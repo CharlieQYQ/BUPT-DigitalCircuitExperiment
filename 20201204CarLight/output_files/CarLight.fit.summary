@@ -1,0 +1,18 @@
+Fitter Status : Successful - Wed Dec 16 14:39:52 2020
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : CarLight
+Top-level Entity Name : CarLight
+Family : MAX 10
+Device : 10M02SCM153I7G
+Timing Models : Final
+Total logic elements : 58 / 2,304 ( 3 % )
+    Total combinational functions : 58 / 2,304 ( 3 % )
+    Dedicated logic registers : 32 / 2,304 ( 1 % )
+Total registers : 32
+Total pins : 11 / 112 ( 10 % )
+Total virtual pins : 0
+Total memory bits : 0 / 110,592 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 32 ( 0 % )
+Total PLLs : 0 / 1 ( 0 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0

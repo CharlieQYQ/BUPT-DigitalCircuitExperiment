@@ -1,0 +1,24 @@
+|LockedBox
+Key1 => Equal0.IN2
+Key1 => Equal2.IN0
+Key2 => Equal0.IN0
+Key2 => Equal2.IN2
+Key3 => Equal0.IN3
+Key3 => Equal2.IN1
+Key4 => Equal0.IN1
+Key4 => Equal2.IN3
+LED[0] <= Lock2.DB_MAX_OUTPUT_PORT_TYPE
+LED[1] <= Lock1.DB_MAX_OUTPUT_PORT_TYPE
+Button1 => Lock1.LATCH_ENABLE
+Button2 => Equal1.IN0
+Seg_Led[0] <= <VCC>
+Seg_Led[1] <= Equal3.DB_MAX_OUTPUT_PORT_TYPE
+Seg_Led[2] <= Equal3.DB_MAX_OUTPUT_PORT_TYPE
+Seg_Led[3] <= <VCC>
+Seg_Led[4] <= <VCC>
+Seg_Led[5] <= <VCC>
+Seg_Led[6] <= <GND>
+Seg_Led[7] <= <GND>
+Seg_Led[8] <= <GND>
+
+

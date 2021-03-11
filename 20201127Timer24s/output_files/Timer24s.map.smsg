@@ -1,0 +1,2 @@
+Info (10281): Verilog HDL Declaration information at Timer24s.v(7): object "Seg1" differs only in case from object "seg1" in the same scope File: D:/QuartusProjects/20201127Timer24s/Timer24s.v Line: 7
+Info (10281): Verilog HDL Declaration information at Timer24s.v(7): object "Seg2" differs only in case from object "seg2" in the same scope File: D:/QuartusProjects/20201127Timer24s/Timer24s.v Line: 7

@@ -1,0 +1,21 @@
+# do D.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:35:12 on Nov 27,2020
+# vlog -work work D.vo 
+# -- Compiling module D
+# -- Compiling module hard_block
+# 
+# Top level modules:
+# 	D
+# End time: 13:35:13 on Nov 27,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:35:13 on Nov 27,2020
+# vlog -work work D.vwf.vt 
+# -- Compiling module D_vlg_vec_tst
+# 
+# Top level modules:
+# 	D_vlg_vec_tst
+# End time: 13:35:13 on Nov 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Error loading design

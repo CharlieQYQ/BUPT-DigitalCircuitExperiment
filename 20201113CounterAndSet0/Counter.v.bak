@@ -1,0 +1,24 @@
+//2020.11.13
+//带清零功能计数器
+
+module Counter(LED,Key,Reset)
+	input Key;
+	input Reset;
+	
+	output [7:0] LED;
+	
+	reg [7:0] led;
+	
+	assign LED = led;
+	
+	always@(Key,Reset) begin
+		if(Reset == 1'b0) begin
+			led = 8'b00000000;
+		end
+		else begin
+			if(Key == 1'b0) begin
+				led = led + 1'b1;
+			end
+		end
+	end
+endmodule

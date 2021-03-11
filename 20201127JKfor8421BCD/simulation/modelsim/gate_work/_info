@@ -1,0 +1,85 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/QuartusProjects/20201127JKfor8421BCD/simulation/modelsim
+vCnt8421_vlg_tst
+Z1 !s110 1606486265
+!i10b 1
+!s100 @Qj06FcADL9eD6lZHh=7z3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IZeNgz=PJFnQ0BN@YAg_<e0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1606486095
+8D:/QuartusProjects/20201127JKfor8421BCD/Test.v
+FD:/QuartusProjects/20201127JKfor8421BCD/Test.v
+!i122 1
+L0 2 7
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1606486265.000000
+!s107 D:/QuartusProjects/20201127JKfor8421BCD/Test.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/QuartusProjects/20201127JKfor8421BCD|D:/QuartusProjects/20201127JKfor8421BCD/Test.v|
+!i113 1
+Z5 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+D:/QuartusProjects/20201127JKfor8421BCD
+Z6 tCvgOpt 0
+n@cnt8421_vlg_tst
+vhard_block
+R1
+!i10b 1
+!s100 noFCINj<<NFgmXJ31C_WZ3
+R2
+I9^R6Eg[Knzoz:jXd1mGKF1
+R3
+R0
+Z7 w1606485498
+Z8 8JKfor8421BCD.vo
+Z9 FJKfor8421BCD.vo
+!i122 0
+L0 435 45
+R4
+r1
+!s85 0
+31
+Z10 !s108 1606486264.000000
+Z11 !s107 JKfor8421BCD.vo|
+Z12 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|JKfor8421BCD.vo|
+!i113 1
+R5
+Z13 !s92 -vlog01compat -work work +incdir+.
+R6
+vJKfor8421BCD
+R1
+!i10b 1
+!s100 [D:zIeXW87XY2mD`3eBl[3
+R2
+IAl3_V53oQnA8_f96BVb]n0
+R3
+R0
+R7
+R8
+R9
+!i122 0
+L0 32 402
+R4
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 1
+R5
+R13
+R6
+n@j@kfor8421@b@c@d

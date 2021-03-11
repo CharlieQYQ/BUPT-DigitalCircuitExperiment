@@ -1,0 +1,19 @@
+//2020.10.6 密码箱
+
+module LockedBox(Key1,Key2,Key3,Key4)
+
+	input Key1;
+	input Key2;
+	input Key3;
+	input Key4;
+	
+	output LED;
+	
+	always@(Key1,Key2,Key3,Key4)begin
+		case({Key1,Key2,Key3,Key4})
+			4'b1010:	LED = 1;
+			default:LED = 0;
+		endcase
+	end
+endmodule
+

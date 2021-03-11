@@ -1,0 +1,77 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'CLK'
+Slack : -3.428
+TNS   : -32.339
+
+Type  : Slow 1200mV 85C Model Setup 'debounce:m1|key_sec[0]'
+Slack : -1.376
+TNS   : -8.396
+
+Type  : Slow 1200mV 85C Model Hold 'debounce:m1|key_sec[0]'
+Slack : 0.385
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CLK'
+Slack : 0.470
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -35.714
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'debounce:m1|key_sec[0]'
+Slack : -1.487
+TNS   : -11.896
+
+Type  : Slow 1200mV 0C Model Setup 'CLK'
+Slack : -3.257
+TNS   : -28.115
+
+Type  : Slow 1200mV 0C Model Setup 'debounce:m1|key_sec[0]'
+Slack : -1.151
+TNS   : -7.002
+
+Type  : Slow 1200mV 0C Model Hold 'debounce:m1|key_sec[0]'
+Slack : 0.344
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CLK'
+Slack : 0.443
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -35.714
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'debounce:m1|key_sec[0]'
+Slack : -1.487
+TNS   : -11.896
+
+Type  : Fast 1200mV 0C Model Setup 'CLK'
+Slack : -0.808
+TNS   : -1.825
+
+Type  : Fast 1200mV 0C Model Setup 'debounce:m1|key_sec[0]'
+Slack : 0.090
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'debounce:m1|key_sec[0]'
+Slack : 0.158
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CLK'
+Slack : 0.170
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -28.644
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'debounce:m1|key_sec[0]'
+Slack : -1.000
+TNS   : -8.000
+
+------------------------------------------------------------

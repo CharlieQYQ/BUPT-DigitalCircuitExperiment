@@ -1,0 +1,18 @@
+Fitter Status : Successful - Mon Sep 28 17:20:08 2020
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : 20200928BreathLED
+Top-level Entity Name : breath_led
+Family : MAX 10
+Device : 10M02SCM153I7G
+Timing Models : Final
+Total logic elements : 104 / 2,304 ( 5 % )
+    Total combinational functions : 104 / 2,304 ( 5 % )
+    Dedicated logic registers : 51 / 2,304 ( 2 % )
+Total registers : 51
+Total pins : 3 / 112 ( 3 % )
+Total virtual pins : 0
+Total memory bits : 0 / 110,592 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 32 ( 0 % )
+Total PLLs : 0 / 1 ( 0 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0

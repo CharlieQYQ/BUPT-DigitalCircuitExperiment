@@ -1,0 +1,6 @@
+|top
+key => led$latch.LATCH_ENABLE
+rst => led$latch.PRESET
+led << led$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

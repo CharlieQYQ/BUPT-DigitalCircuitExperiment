@@ -1,0 +1,355 @@
+Analysis & Synthesis report for My74HC595
+Tue Nov 24 22:08:25 2020
+Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. Registers Removed During Synthesis
+  9. Removed Registers Triggering Further Register Optimizations
+ 10. General Register Statistics
+ 11. Parameter Settings for User Entity Instance: debounce:m1
+ 12. Post-Synthesis Netlist Statistics for Top Partition
+ 13. Elapsed Time Per Partition
+ 14. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++----------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                     ;
++------------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Tue Nov 24 22:08:25 2020       ;
+; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
+; Revision Name                      ; My74HC595                                   ;
+; Top-level Entity Name              ; My74HC595                                   ;
+; Family                             ; MAX 10                                      ;
+; Total logic elements               ; 0                                           ;
+;     Total combinational functions  ; 0                                           ;
+;     Dedicated logic registers      ; 0                                           ;
+; Total registers                    ; 0                                           ;
+; Total pins                         ; 11                                          ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 0                                           ;
+; Embedded Multiplier 9-bit elements ; 0                                           ;
+; Total PLLs                         ; 0                                           ;
+; UFM blocks                         ; 0                                           ;
+; ADC blocks                         ; 0                                           ;
++------------------------------------+---------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                              ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                           ; Setting            ; Default Value      ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                           ; 10M02SCM153I7G     ;                    ;
+; Top-level entity name                                            ; My74HC595          ; My74HC595          ;
+; Family name                                                      ; MAX 10             ; Cyclone V          ;
+; Use smart compilation                                            ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                      ; Off                ; Off                ;
+; Restructure Multiplexers                                         ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                              ; Off                ; Off                ;
+; Preserve fewer node names                                        ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                    ; Enable             ; Enable             ;
+; Verilog Version                                                  ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                     ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                         ; Auto               ; Auto               ;
+; Safe State Machine                                               ; Off                ; Off                ;
+; Extract Verilog State Machines                                   ; On                 ; On                 ;
+; Extract VHDL State Machines                                      ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                       ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                   ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                          ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                        ; On                 ; On                 ;
+; Parallel Synthesis                                               ; On                 ; On                 ;
+; DSP Block Balancing                                              ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                               ; On                 ; On                 ;
+; Power-Up Don't Care                                              ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                     ; Off                ; Off                ;
+; Remove Duplicate Registers                                       ; On                 ; On                 ;
+; Ignore CARRY Buffers                                             ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                           ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                            ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                        ; Off                ; Off                ;
+; Ignore LCELL Buffers                                             ; Off                ; Off                ;
+; Ignore SOFT Buffers                                              ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                   ; Off                ; Off                ;
+; Optimization Technique                                           ; Balanced           ; Balanced           ;
+; Carry Chain Length                                               ; 70                 ; 70                 ;
+; Auto Carry Chains                                                ; On                 ; On                 ;
+; Auto Open-Drain Pins                                             ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                            ; Off                ; Off                ;
+; Auto ROM Replacement                                             ; On                 ; On                 ;
+; Auto RAM Replacement                                             ; On                 ; On                 ;
+; Auto DSP Block Replacement                                       ; On                 ; On                 ;
+; Auto Shift Register Replacement                                  ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                  ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                    ; On                 ; On                 ;
+; Strict RAM Replacement                                           ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                           ; Off                ; Off                ;
+; Auto RAM Block Balancing                                         ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                ; Off                ; Off                ;
+; Auto Resource Sharing                                            ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                    ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing              ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                ; Off                ; Off                ;
+; Timing-Driven Synthesis                                          ; On                 ; On                 ;
+; Report Parameter Settings                                        ; On                 ; On                 ;
+; Report Source Assignments                                        ; On                 ; On                 ;
+; Report Connectivity Checks                                       ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                               ; Off                ; Off                ;
+; Synchronization Register Chain Length                            ; 2                  ; 2                  ;
+; Power Optimization During Synthesis                              ; Normal compilation ; Normal compilation ;
+; HDL message level                                                ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                  ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report         ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report               ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report        ; 100                ; 100                ;
+; Clock MUX Protection                                             ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                      ; Off                ; Off                ;
+; Block Design Naming                                              ; Auto               ; Auto               ;
+; SDC constraint protection                                        ; Off                ; Off                ;
+; Synthesis Effort                                                 ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal     ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                             ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                               ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                      ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                           ; On                 ; On                 ;
++------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 12          ;
+; Maximum allowed            ; 6           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
++----------------------------+-------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                          ;
++----------------------------------+-----------------+------------------------+---------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                            ; Library ;
++----------------------------------+-----------------+------------------------+---------------------------------------------------------+---------+
+; 20200928Debounce.v               ; yes             ; User Verilog HDL File  ; D:/QuartusProjects/20201122My74HC595/20200928Debounce.v ;         ;
+; My74HC595.v                      ; yes             ; User Verilog HDL File  ; D:/QuartusProjects/20201122My74HC595/My74HC595.v        ;         ;
++----------------------------------+-----------------+------------------------+---------------------------------------------------------+---------+
+
+
++-----------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary         ;
++---------------------------------------------+-------+
+; Resource                                    ; Usage ;
++---------------------------------------------+-------+
+;                                             ;       ;
+; Total combinational functions               ; 0     ;
+; Logic element usage by number of LUT inputs ;       ;
+;     -- 4 input functions                    ; 0     ;
+;     -- 3 input functions                    ; 0     ;
+;     -- <=2 input functions                  ; 0     ;
+;                                             ;       ;
+; Logic elements by mode                      ;       ;
+;     -- normal mode                          ; 0     ;
+;     -- arithmetic mode                      ; 0     ;
+;                                             ;       ;
+; Total registers                             ; 0     ;
+;     -- Dedicated logic registers            ; 0     ;
+;     -- I/O registers                        ; 0     ;
+;                                             ;       ;
+; I/O pins                                    ; 11    ;
+;                                             ;       ;
+; Embedded Multiplier 9-bit elements          ; 0     ;
+;                                             ;       ;
+; Maximum fan-out node                        ; CLK   ;
+; Maximum fan-out                             ; 1     ;
+; Total fan-out                               ; 11    ;
+; Average fan-out                             ; 0.50  ;
++---------------------------------------------+-------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                ;
++----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------+-------------+--------------+
+; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name ; Entity Name ; Library Name ;
++----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------+-------------+--------------+
+; |My74HC595                 ; 0 (0)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 11   ; 0            ; 0          ; |My74HC595          ; My74HC595   ; work         ;
++----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------+-------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++--------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                             ;
++----------------------------------------+---------------------------------------+
+; Register name                          ; Reason for Removal                    ;
++----------------------------------------+---------------------------------------+
+; debounce:m1|key_rst[0,1]               ; Stuck at VCC due to stuck port preset ;
+; debounce:m1|key_rst_pre[1]             ; Stuck at VCC due to stuck port preset ;
+; debounce:m1|key_rst_pre[0]             ; Lost fanout                           ;
+; debounce:m1|cnt[1..17]                 ; Stuck at GND due to stuck port clear  ;
+; debounce:m1|key_sec_pre[0]             ; Stuck at VCC due to stuck port preset ;
+; debounce:m1|cnt[0]                     ; Stuck at GND due to stuck port clear  ;
+; debounce:m1|key_sec[0,1]               ; Stuck at VCC due to stuck port preset ;
+; debounce:m1|key_sec_pre[1]             ; Stuck at VCC due to stuck port preset ;
+; Total Number of Removed Registers = 26 ;                                       ;
++----------------------------------------+---------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------+
+; Removed Registers Triggering Further Register Optimizations                                                                             ;
++------------------------+--------------------------+-------------------------------------------------------------------------------------+
+; Register name          ; Reason for Removal       ; Registers Removed due to This Register                                              ;
++------------------------+--------------------------+-------------------------------------------------------------------------------------+
+; debounce:m1|key_rst[1] ; Stuck at VCC             ; debounce:m1|key_rst_pre[1], debounce:m1|key_rst_pre[0], debounce:m1|cnt[17],        ;
+;                        ; due to stuck port preset ; debounce:m1|cnt[16], debounce:m1|cnt[15], debounce:m1|cnt[14], debounce:m1|cnt[13], ;
+;                        ;                          ; debounce:m1|cnt[12], debounce:m1|cnt[11], debounce:m1|cnt[10], debounce:m1|cnt[9],  ;
+;                        ;                          ; debounce:m1|cnt[8], debounce:m1|cnt[7], debounce:m1|cnt[6], debounce:m1|cnt[5],     ;
+;                        ;                          ; debounce:m1|cnt[4], debounce:m1|cnt[3], debounce:m1|cnt[2], debounce:m1|cnt[1],     ;
+;                        ;                          ; debounce:m1|cnt[0], debounce:m1|key_sec[1], debounce:m1|key_sec[0],                 ;
+;                        ;                          ; debounce:m1|key_sec_pre[1]                                                          ;
++------------------------+--------------------------+-------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 0     ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++----------------------------------------------------------+
+; Parameter Settings for User Entity Instance: debounce:m1 ;
++----------------+-------+---------------------------------+
+; Parameter Name ; Value ; Type                            ;
++----------------+-------+---------------------------------+
+; N              ; 2     ; Signed Integer                  ;
++----------------+-------+---------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; boundary_port         ; 11                          ;
+; cycloneiii_lcell_comb ; 1                           ;
+;     normal            ; 1                           ;
+;         0 data inputs ; 1                           ;
+;                       ;                             ;
+; Max LUT depth         ; 0.00                        ;
+; Average LUT depth     ; 0.00                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:00     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+    Info: Processing started: Tue Nov 24 22:08:14 2020
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off My74HC595 -c My74HC595
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file 20200928debounce.v
+    Info (12023): Found entity 1: debounce File: D:/QuartusProjects/20201122My74HC595/20200928Debounce.v Line: 4
+Info (12021): Found 1 design units, including 1 entities, in source file my74hc595.v
+    Info (12023): Found entity 1: My74HC595 File: D:/QuartusProjects/20201122My74HC595/My74HC595.v Line: 3
+Info (12127): Elaborating entity "My74HC595" for the top level hierarchy
+Warning (10235): Verilog HDL Always Construct warning at My74HC595.v(28): variable "LEDState" is read inside the Always Construct but isn't in the Always Construct's Event Control File: D:/QuartusProjects/20201122My74HC595/My74HC595.v Line: 28
+Warning (10235): Verilog HDL Always Construct warning at My74HC595.v(32): variable "LEDState" is read inside the Always Construct but isn't in the Always Construct's Event Control File: D:/QuartusProjects/20201122My74HC595/My74HC595.v Line: 32
+Warning (10240): Verilog HDL Always Construct warning at My74HC595.v(26): inferring latch(es) for variable "LEDState", which holds its previous value in one or more paths through the always construct File: D:/QuartusProjects/20201122My74HC595/My74HC595.v Line: 26
+Info (10041): Inferred latch for "LEDState[0]" at My74HC595.v(31) File: D:/QuartusProjects/20201122My74HC595/My74HC595.v Line: 31
+Info (10041): Inferred latch for "LEDState[1]" at My74HC595.v(31) File: D:/QuartusProjects/20201122My74HC595/My74HC595.v Line: 31
+Info (10041): Inferred latch for "LEDState[2]" at My74HC595.v(31) File: D:/QuartusProjects/20201122My74HC595/My74HC595.v Line: 31
+Info (10041): Inferred latch for "LEDState[3]" at My74HC595.v(31) File: D:/QuartusProjects/20201122My74HC595/My74HC595.v Line: 31
+Info (10041): Inferred latch for "LEDState[4]" at My74HC595.v(31) File: D:/QuartusProjects/20201122My74HC595/My74HC595.v Line: 31
+Info (10041): Inferred latch for "LEDState[5]" at My74HC595.v(31) File: D:/QuartusProjects/20201122My74HC595/My74HC595.v Line: 31
+Info (10041): Inferred latch for "LEDState[6]" at My74HC595.v(31) File: D:/QuartusProjects/20201122My74HC595/My74HC595.v Line: 31
+Info (10041): Inferred latch for "LEDState[7]" at My74HC595.v(31) File: D:/QuartusProjects/20201122My74HC595/My74HC595.v Line: 31
+Info (12128): Elaborating entity "debounce" for hierarchy "debounce:m1" File: D:/QuartusProjects/20201122My74HC595/My74HC595.v Line: 22
+Warning (14025): LATCH primitive "LEDState[1]" is permanently disabled File: D:/QuartusProjects/20201122My74HC595/My74HC595.v Line: 31
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "LED[0]" is stuck at GND File: D:/QuartusProjects/20201122My74HC595/My74HC595.v Line: 7
+    Warning (13410): Pin "LED[1]" is stuck at GND File: D:/QuartusProjects/20201122My74HC595/My74HC595.v Line: 7
+    Warning (13410): Pin "LED[2]" is stuck at GND File: D:/QuartusProjects/20201122My74HC595/My74HC595.v Line: 7
+    Warning (13410): Pin "LED[3]" is stuck at GND File: D:/QuartusProjects/20201122My74HC595/My74HC595.v Line: 7
+    Warning (13410): Pin "LED[4]" is stuck at GND File: D:/QuartusProjects/20201122My74HC595/My74HC595.v Line: 7
+    Warning (13410): Pin "LED[5]" is stuck at GND File: D:/QuartusProjects/20201122My74HC595/My74HC595.v Line: 7
+    Warning (13410): Pin "LED[6]" is stuck at GND File: D:/QuartusProjects/20201122My74HC595/My74HC595.v Line: 7
+    Warning (13410): Pin "LED[7]" is stuck at GND File: D:/QuartusProjects/20201122My74HC595/My74HC595.v Line: 7
+Info (17049): 1 registers lost all their fanouts during netlist optimizations.
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Warning (21074): Design contains 3 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "CLK" File: D:/QuartusProjects/20201122My74HC595/My74HC595.v Line: 4
+    Warning (15610): No output dependent on input pin "Key[0]" File: D:/QuartusProjects/20201122My74HC595/My74HC595.v Line: 5
+    Warning (15610): No output dependent on input pin "Key[1]" File: D:/QuartusProjects/20201122My74HC595/My74HC595.v Line: 5
+Info (21057): Implemented 11 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 3 input pins
+    Info (21059): Implemented 8 output pins
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 18 warnings
+    Info: Peak virtual memory: 4759 megabytes
+    Info: Processing ended: Tue Nov 24 22:08:25 2020
+    Info: Elapsed time: 00:00:11
+    Info: Total CPU time (on all processors): 00:00:25
+
+

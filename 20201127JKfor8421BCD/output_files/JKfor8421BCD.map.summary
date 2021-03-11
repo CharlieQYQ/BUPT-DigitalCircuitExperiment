@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Fri Nov 27 21:57:53 2020
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : JKfor8421BCD
+Top-level Entity Name : JKfor8421BCD
+Family : MAX 10
+Total logic elements : 4
+    Total combinational functions : 4
+    Dedicated logic registers : 4
+Total registers : 4
+Total pins : 6
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

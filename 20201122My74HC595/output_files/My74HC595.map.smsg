@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at My74HC595.v(25): always construct contains both blocking and non-blocking assignments File: D:/QuartusProjects/20201122My74HC595/My74HC595.v Line: 25

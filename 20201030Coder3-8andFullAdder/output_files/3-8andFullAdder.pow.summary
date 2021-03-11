@@ -1,0 +1,12 @@
+Power Analyzer Status : Successful - Tue Nov 24 20:07:16 2020
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : 3-8andFullAdder
+Top-level Entity Name : Decoder3_8andFullAdder
+Family : MAX 10
+Device : 10M02SCM153I7G
+Power Models : Final
+Total Thermal Power Dissipation : 112.97 mW
+Core Dynamic Thermal Power Dissipation : 0.00 mW
+Core Static Thermal Power Dissipation : 66.85 mW
+I/O Thermal Power Dissipation : 46.12 mW
+Power Estimation Confidence : Low: user provided insufficient toggle rate data

@@ -1,0 +1,25 @@
+|FullAdder
+Switch[0] => CountAdd.IN0
+Switch[0] => AddFunc.IN0
+Switch[1] => CountAdd.IN0
+Switch[1] => CountAdd.IN1
+Switch[1] => AddFunc.IN0
+Switch[2] => CountAdd.IN0
+Switch[2] => CountAdd.IN1
+Switch[2] => AddFunc.IN0
+Switch[3] => AddFunc.IN0
+Key[0] => CountAdd.IN1
+Key[0] => AddFunc.IN1
+Key[1] => CountAdd.IN1
+Key[1] => CountAdd.IN1
+Key[1] => AddFunc.IN1
+Key[2] => CountAdd.IN1
+Key[2] => CountAdd.IN1
+Key[2] => AddFunc.IN1
+Key[3] => AddFunc.IN1
+LED[0] << AddFunc.DB_MAX_OUTPUT_PORT_TYPE
+LED[1] << AddFunc.DB_MAX_OUTPUT_PORT_TYPE
+LED[2] << AddFunc.DB_MAX_OUTPUT_PORT_TYPE
+LED[3] << AddFunc.DB_MAX_OUTPUT_PORT_TYPE
+
+
